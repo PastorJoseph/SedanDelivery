@@ -66,5 +66,13 @@ body {
     font-size: 20px;
   }
 
+  .photos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) center center/cover;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+
   
   
