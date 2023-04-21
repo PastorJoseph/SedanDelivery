@@ -1,3 +1,6 @@
+
+
+
 .box {
   box-sizing: border-box;
 }
@@ -57,6 +60,9 @@ body {
     color: blue;
     
   }
+  .click-blue:hover {
+    color: blue;
+  } 
 
   .dropdown-item:hover {
     color: blue;
