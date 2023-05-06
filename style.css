@@ -60,7 +60,11 @@ body {
     color: blue;
     
   }
-  .click-blue:hover {
+  .navbar-brand:hover {
+    color: blue;
+    
+  }
+   .click-blue:hover {
     color: blue;
   } 
 
