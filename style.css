@@ -84,5 +84,9 @@ body {
     height: 50vh;
   }
 
+  .thumbnail {
+    object-fit: cover;
+  }
+
   
   
