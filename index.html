@@ -66,11 +66,11 @@
    
       
      <div class="container">
-    <p class="text-light text-center fs-2   pt-5"> Sedan Delivery arrived  on the  music scene of the Tower district in Fresno, California in 1989</p></div> 
+    <p class="text-light text-center fs-2   pt-5">Sedan Delivery arrived  on the  music scene of the Tower district in Fresno, California in 1989</p></div> 
     <div class="row mt-5">
         <div class="container">
       <div class="col">
-            <div class="card my-5"><img src="img/sd1a.jpg" alt=""></div>
+            <div class="card my-5 "><img src="img/sd1a.jpg" alt=""></div>
         </div>
       <div class="col">
             <div class="card my-5"><img src="img/sd3.jpg" alt=""></div>
@@ -85,45 +85,38 @@
         <div class="card my-5 mb-5 mt-1">
           <img class="" src="img/gig2.jpg" alt="">
         </div>
-      
+        <script>
+          // Get the button
+          let mybutton = document.getElementById("myBtn");
+          
+          // When the user scrolls down 20px from the top of the document, show the button
+          window.onscroll = function() {scrollFunction()};
+          
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              mybutton.style.display = "block";
+            } else {
+              mybutton.style.display = "none";
+            }
+          }
+          
+          // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+          </script>
         
+     
 
-
-        <!-- <div class="container">
-          <div class="card bg-black">
-        <p class="text-light text-center fs-2">Reunited in 2018 after nearly 30 years, we recorded our first album "Untitled"</p>
-      </div></div> -->
         
-        <!-- <div class="col">
-            <div class="card my-5 "><img src="img/332912061_186724690757036_9114381158758693639_n.jpg" alt=""></div>
-        </div>
-        <div class="col">
-            <div class="card my-5"><img src="img/333410487_549349503958877_8485160290672069388_n.jpg" alt=""></div>
-        </div>
-        <div class="col">
-            <div class="card my-5"><img src="img/333565963_1161914931158614_2257980866505942258_n.jpg
-                " alt=""></div>
-        </div> -->
-    </div>
-
-    <!-- <style>
-      body {
-        overflow-x: hidden;
-      }
-
-      .nav {
-        width: 100%;
-        overflow: hidden;
-      }
-    </style> -->
-
-    <!-- <p class="fs-1 text-light my-5">Reunited in 2018 after more than 30 years apart, they recorded their first album "Untitled" and are working on their second.</p> -->
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-
+    
   
   </body>
    <!-- Footer -->
+     
 <footer class="footer text-center text-lg-start bg-white text-secondary ">
  
   <section class="d-flex justify-content-center justify-content-lg-between  border-bottom">
@@ -131,9 +124,10 @@
     <div class="me-5 d-none d-lg-block">
     
     </div>
-
+    
   </section>
- 
+  <div class="box fs-5">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Return to Top</button></div> 
   <div class="container text-center mt-5">
     <h6 class="text-uppercase fw-bold mb-4 ">
       <i class="fme-3 text-secondary"></i>Sedan Delivery

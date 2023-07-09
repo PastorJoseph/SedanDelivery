@@ -88,5 +88,14 @@ body {
     object-fit: cover;
   }
 
-  
-  
+  /* * 									{ margin: 0; padding: 0; }
+body								{ font: 15px Helvetica, Sans-Serif; } 
+html                                { overflow-y: scroll; }
+#page-wrap							{ width: 720px; margin: 25px auto; } 
+p                                   { margin: 0 0 8px 0; }
+a									{ text-decoration: none; }
+img                                 { vertical-align: middle; }
+a img                               { border: 0; 180}
+ul									{ list-style: none; }
+h1                                  { margin: 0 0 10px 0; } */
+

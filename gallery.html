@@ -660,6 +660,28 @@
       </div>
     </div>
   </div>
+  <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+  
   
 
 </div>
@@ -675,7 +697,8 @@
     </div>
 
   </section>
- 
+  <div class="box fs-5">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Return to Top</button></div>
   <div class="container text-center mt-5">
     <h6 class="text-uppercase fw-bold mb-4 ">
       <i class="fme-3 text-secondary"></i>Sedan Delivery
